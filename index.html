@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Vlapt Voos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+          <img src="img/aviao.png" class="img-fluid" />
+            <a class="navbar-brand" href="#" style="margin-left: 34px;" id="teste">Pousadas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="navbar-brand" href="#" style="margin-left: 20px;"> Passagens <span class="sr-only">(Página atual)</span></a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="navbar-brand" href="#" style="margin-left: 20px;">Pacotes</a>
+                </li>
+            
+              </ul>
+            </div>
+          </nav>
+    
+    </header>
+  
+       <div class="container-fluid">
+           <img src="img/fernandoDeNoronha.jpg" width="100%" height="500px"/>
+            <div class="container" style="background-color: white; margin-left: 96px; border-radius: 10px;
+             width:100%; position:absolute;top: 30%;">
+                <b><label>PASSAGENS AEREAS</label> </b>      
+                <form class="needs-validation" novalidate>
+                    <div class="form-row col-12">
+                      <div class="col-3">
+                        <label for="validationCustom01">Origem</label>   
+                        <input type="text" class="form-control" id="validationCustom01"
+                         placeholder="Sua localidade" value="" required>
+                       
+                      </div>
+                      <div class="col-3">
+                        <label for="validationCustom01">Destino</label>   
+                        <input type="text" class="form-control" id="validationCustom01" 
+                        placeholder="Localidade destino" value="" required>
+                       
+                      </div>
+                      <div class="col-2">
+                        <label for="birthdaytime">Ida:</label>
+                        <input type="date" id="birthdaytime" class="form-control" 
+                        name="birthdaytime">
+                        
+                      </div>
+                      <div class="col-2">
+                        <label for="birthdaytime">Volta:</label>
+                        <input type="date" id="birthdaytime" class="form-control" 
+                        name="birthdaytime">
+                      </div>
+                     
+                       <div class="col-2">
+                           <label for="NumPassageiros">Passageiros</label>
+                        <select class="form-control">
+                            <option>1 Passageiro</option>
+                            <option>2 Passageiros</option>
+                            <option>3 Passageiros</option>
+                            <option>4 Passageiros</option>
+                            <option>5 Passageiros</option>
+                            <option>6 Passageiros</option>
+                            <option>7 Passageiros</option>
+                            <option>8 Passageiros</option>
+                            <option>9 Passageiros</option>
+                            <option>10 Passageiros</option>
+
+                          </select>
+                       </div>
+                    </div>
+                            
+                   <br>
+                   <div class="text-center"> 
+                    <button type="button" class="btn btn-success btn-lg text-center" >Buscar</button>
+                   </div>
+                   <br>
+                </form>
+
+              
+            </div>
+       </div> 
+       <br> <br>
+       <div class="col-12 row">
+        <div class="card col-3" style="width: 18rem;">
+            <img class="card-img-top" src="img/Jerusalem.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Conheça a Terra Santa, onde Jesus viveu. E faça parte das inúmeras pessoas que se emocionam ao passar 
+                  por aqui.
+              </p>
+              <a href="#" class="card-link">Saiba mais</a>
+            </div>
+           
+          </div>
+    
+          <div class="card col-3" style="width: 18rem;">
+            <img class="card-img-top" src="img/rj.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text"> Conheça a cidade maravilhosa. Faça um tour pelo estado com um de nossos pacotes.</p>
+              <a href="#" class="card-link">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="card col-3" style="width: 18rem;">
+            <img class="card-img-top" src="img/paris.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Faça seu passeio romântico na cidade de Paris. Conheça nossos pacotes.</p>
+              <a href="#" class="card-link">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="card col-3" style="width: 18rem;">
+            <img class="card-img-top" src="img/vaticano.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text"> Viaje ao vaticano e conheça a Basílica de São Pedro, Chiesa di Sant'Anna dei Palafrenieri e 
+                  muitas outras.
+            </p>
+            <a href="#" class="card-link">Saiba mais</a>
+            </div>
+          </div>
+       </div>
+
+       
+      <br>
+     
+    
+</body>
+</html>
